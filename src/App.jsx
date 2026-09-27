@@ -3,10 +3,10 @@ import {BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
 
-import Home from "./pages/Home";
-import Matches from "./pages/Matches";
-import Booking from "./pages/Booking";
-import BookingHistory from "./pages/BookingHistory";
+import Home from "./Pages/Home";
+import Matches from "./Pages/Matches";
+import Booking from "./Pages/Booking";
+import Bookinghistory from "./Pages/Bookinghistory";
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/matches" element={<Matches />} />
         <Route path="/booking" element={<Booking />} />
-        <Route path="/history" element={<BookingHistory />} />
+        <Route path="/history" element={<Bookinghistory />} />
       </Routes>
 
     </BrowserRouter>
